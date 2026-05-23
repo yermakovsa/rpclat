@@ -1,0 +1,25 @@
+# Binaries
+/rpclat
+/rpclat.exe
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Go build/test artifacts
+*.test
+*.out
+coverage.out
+coverage.html
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.log
+
+# Editor/OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
