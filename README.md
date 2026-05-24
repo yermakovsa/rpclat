@@ -146,6 +146,12 @@ docker build -t rpclat .
 docker run --rm rpclat --url https://rpc.example
 ```
 
+Or run the published image:
+
+```bash
+docker run --rm ghcr.io/yermakovsa/rpclat:v0.1.0 --url https://rpc.example
+```
+
 Inside Docker, `localhost` means the container itself.
 
 ## Non-goals
