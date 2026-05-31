@@ -2,7 +2,9 @@
 
 `rpclat` compares Ethereum JSON-RPC endpoints from the machine or container where it runs.
 
-Use it when you have a few RPC URLs and want to know which one is faster and more reliable from your laptop, VPS, CI runner, Docker container, or server region.
+Use it when you have a few RPC URLs and want a quick view of latency, errors, and timeouts from your laptop, VPS, CI runner, Docker container, or server.
+
+For region comparisons, run `rpclat` from each deployment region you are considering and compare the results.
 
 It calls `eth_blockNumber` for a fixed amount of time and reports request counts, errors, timeouts, and latency percentiles.
 
